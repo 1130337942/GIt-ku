@@ -1,0 +1,52 @@
+body{
+    margin: 0;
+    height: 100vh;
+}
+.wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+main{
+    width: 80%;
+    margin: 0 auto;
+    background: #333333;
+    box-shadow: 3px 3px 3px black inset;
+    padding: 20px 20px;
+}
+.wai{
+    background: #232323;
+    box-shadow: 3px 3px 3px black inset;
+    color: white;
+    text-align: center;
+}
+.nei p{
+    margin-top: 0;
+    font-family: 黑体;
+    font-size: 40px;
+    padding: 20px 0px;
+    animation: flash 3s linear infinite;
+}
+.shi span{
+    font-size: 110px;
+    font-family: 华文彩云;
+    border: solid 2px white;
+    background: #000000;
+    padding: 20px 20px;
+    margin: 0 20px;
+    border-radius: 15px;
+}
+.nian{
+    margin-top: 60px;
+    padding-bottom: 30px;
+}
+.nian span{
+    display: inline-block;
+    padding: 20px;
+    font-size: 50px;
+    border: 2px solid white;
+    border-radius: 15px;
+    background: #000000;
+    font-family: 华文彩云;
+}
